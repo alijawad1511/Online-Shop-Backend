@@ -1,0 +1,16 @@
+{
+  "name": "onlineshop",
+  "version": "1.0.0",
+  "description": "This is a project built using MERN Stack",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Syed Ali Jawad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  }
+}
