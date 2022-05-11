@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose'
 import users from './routes/api/users.js'
+import products from './routes/api/products.js'
 
 
 // App Config
@@ -18,6 +19,7 @@ mongoose.connect(CONNECTION_URL)
 
 // Route Files
 app.use('/api/users',users)
+app.use('/api/products',products)
 
 // API Endpoints
 app.get('/',(req,res) => {
